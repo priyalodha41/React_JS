@@ -1,0 +1,170 @@
+@media (max-width:992px) {
+    .dish-title.blog-title,.blog-title,.dish-title{
+        max-width: 100% !important;
+    }
+    .blog::before,
+    .blog::after,.offers::before,.our-dishes::before,.aboutus::before{
+        content: " ";
+        position: absolute;
+    }
+    .blog::before{
+        left: -100px !important;
+        width: 200px !important;
+        height: 200px !important;
+        opacity: 40% !important;
+    }
+    .blog::after{
+        width: 140px !important;
+        height: 175px !important;
+        opacity: 40% !important;
+    }
+    .offers::before{
+        width: 250px !important;
+        height: 250px !important;
+        right: -100px !important;
+        bottom: 50px !important;
+        opacity: 40% !important;
+    }
+    .our-dishes::before{
+        width: 140px !important;
+        height: 140px !important;
+        opacity: 40% !important;
+    }
+    .dish-title h1,.aboutus-content h1{
+        font-size: 30px !important;
+    }
+    .offers-main{
+        margin-right:0px !important ;
+    }
+    .aboutus::before{
+        width: 140px !important;
+        height: 175px !important;
+        opacity: 40% !important;
+    }
+    .dish-title.reserve-content h3::before {
+        left: 0% !important;
+    }
+    .reserve-form{
+        width: 100% !important;
+    } 
+    .banner-img-1 {
+        top: 45% !important;
+    }
+    .banner-img-2 {
+        right: 59% !important;
+    }
+    .banner-section{
+        margin-top: 154px !important;
+    }
+}
+@media (max-width:768px) {
+    .blog-title h3::before {
+        left: 36% !important;
+    }
+    .our-dishes::before{
+        width: 100px !important;
+        height: 100px !important;
+        top: 50px !important;
+    }
+    .dish-title h3::before {
+        left: 35% !important;
+    }
+    .footer-social-icon,.footer-copyright-text{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .banner-left h1{
+        font-size: 55px !important;
+    }
+}
+@media (max-width:568px) {
+    .burger-box {
+        width: 220px !important;
+        padding: 22px !important;
+    }
+    .burger-box .title h3{
+        font-size: 18px !important;
+    }
+    .aboutus-iconbox{
+        padding: 15px !important;
+        width: 28% !important;
+    }
+    .aboutus::before{
+        top: 30% !important;
+    }
+    .banner-img-1{
+         right: 5% !important;
+    }
+}
+@media (max-width:430px) {
+    .blog-title h3::before {
+        left: 32% !important;
+    }
+    .burger-box {
+        width: 190px !important;
+        padding: 10px !important;
+        bottom: -13% !important;
+        right: 3% !important;
+    }
+    .aboutus-content ul li span{
+        padding-left: 15px !important;
+    }
+    .dish-title h3::before {
+        left: 26% !important;
+    }
+    .aboutus-iconbox{
+        top: -2% !important;
+        right: 8% !important;
+        width: 32% !important;
+    }
+    .aboutus-iconbox h3{
+        font-size: 12px !important;
+    }
+    .aboutus-img{
+        bottom: 3% !important;
+        left: 6% !important;
+    }
+    .banner-left h1{
+        font-size: 30px !important;
+    }
+    .banner-img-1 {
+        top: 40% !important;
+    }
+     .banner-img-1{
+         right: 2% !important;
+    }
+}
+@media (max-width:400px) {
+    .aboutus-img {
+        bottom: -5% !important;
+        left: 5% !important;
+    }
+    .img-inner.banner-inner-img:hover::after{
+        height: 129% !important;
+    }
+    .img-inner.banner-inner-img::after{
+        width: 75% !important;
+    }
+    .img-inner.banner-inner-img img{
+        width: 75% !important;
+    }
+    .banner-img-1 {
+        top: 42% !important;
+    }
+    .banner-left button:not(.aboutus-button){
+        padding: 12px 22px 12px 25px !important;
+    }
+    .banner-left a,.banner-left button:not(.aboutus-button){
+        font-size: 12px !important;
+    }
+}
+@media (max-width:330px) {
+     .blog-title h3::before {
+        left: 29% !important;
+    }
+    .dish-title h3::before {
+        left: 22% !important;
+    }
+}
