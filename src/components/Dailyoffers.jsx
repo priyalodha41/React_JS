@@ -7,17 +7,17 @@ const Dailyoffers = () => {
                 <div className="row display align-items-center gy-lg-0 gy-5">
                     <div className="col-lg-6 col-12">
                         <div className='offers-main'>
-                             <img src="/assets/images/daily-offer-image.png" alt="" />
+                             <img src="assets/images/daily-offer-image.png" alt="" />
                              <div className='burger-box'>
                                 <div className="title">
                                     <h3>Delicious Burger</h3>
                                 </div>
                                 <div className="rating display align-items-center gap-1">
-                                    <img src="/assets/images/star.png" alt="" />
-                                    <img src="/assets/images/star.png" alt="" />
-                                    <img src="/assets/images/star.png" alt="" />
-                                    <img src="/assets/images/star.png" alt="" />
-                                    <img src="/assets/images/star.png" alt="" />
+                                    <img src="assets/images/star.png" alt="" />
+                                    <img src="assets/images/star.png" alt="" />
+                                    <img src="assets/images/star.png" alt="" />
+                                    <img src="assets/images/star.png" alt="" />
+                                    <img src="assets/images/star.png" alt="" />
                                 </div>
                                 <div className='list mt-4'>
                                     <ul>

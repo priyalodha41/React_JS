@@ -16,19 +16,19 @@ const Ourblog = () => {
             <div className="row display align-items-center main-blog position-relative z-1 gy-lg-0 gy-4 ps-md-0 ps-2 pe-md-0 pe-2 ">
                 <div className="col-lg-4 col-md-6">
                     <Blogcontent 
-                        img="/assets/images/post-1.jpg"
+                        img="assets/images/post-1.jpg"
                         text="5 Tips for Perfecting Your Home Dining Experience"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6">
                     <Blogcontent 
-                        img="/assets/images/post-2.jpg"
+                        img="assets/images/post-2.jpg"
                         text="Why Locally Sourced Ingredients Make a Difference"
                     />
                 </div>
                 <div className="col-lg-4 col-md-6">
                     <Blogcontent 
-                        img="/assets/images/post-3.jpg"
+                        img="assets/images/post-3.jpg"
                         text="Creating Memorable Dining Moments with Friends"
                     />
                 </div>

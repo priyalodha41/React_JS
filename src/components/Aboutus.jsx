@@ -10,15 +10,15 @@ const Aboutus = () => {
                     <div className="col-lg-6  col-12 order-lg-1 order-2 display justify-content-center position-relative">
                         <div>
                             <div className='main-aboutus-img position-relative z-1'>
-                                <img src="/assets/images/about-us-image.jpg" alt=""/>
+                                <img src="assets/images/about-us-image.jpg" alt=""/>
                             </div>
                             <div className='aboutus-img'>
                                     <div className='img-inner display justify-content-center align-items-center'>
-                                        <img src="/assets/images/about-us-img-2.jpg" alt="" />
+                                        <img src="assets/images/about-us-img-2.jpg" alt="" />
                                 </div>
                             </div>
                             <div className='aboutus-iconbox'>
-                                <img src="/assets/images/icon-company-experience.svg" alt="" />
+                                <img src="assets/images/icon-company-experience.svg" alt="" />
                                 <div className="stats mt-3">
                                     <h3><Counter end={30} />+  years of experience </h3>
                                 </div>
@@ -56,7 +56,7 @@ const Aboutus = () => {
             <div className="row about-detail-container gy-lg-0 gy-3">
                 <div className="col-12 col-lg-4 col-md-6">
                 <Aboutusdetailbox
-                    img="/assets/images/icon-about-detail-1.svg"
+                    img="assets/images/icon-about-detail-1.svg"
                     text="premium dining"
                     content="It's very personal, and can only be a positive experience."
                 />
@@ -64,7 +64,7 @@ const Aboutus = () => {
 
                 <div className="col-12 col-lg-4 col-md-6">
                 <Aboutusdetailbox
-                    img="/assets/images/icon-about-detail-2.svg"
+                    img="assets/images/icon-about-detail-2.svg"
                     text="abundant flavors"
                     content="At secret recipe, we take immense pride in crafting."
                 />
@@ -72,7 +72,7 @@ const Aboutus = () => {
 
                 <div className="col-12 col-lg-4 col-md-6">
                 <Aboutusdetailbox
-                    img="/assets/images/icon-about-detail-3.svg"
+                    img="assets/images/icon-about-detail-3.svg"
                     text="indigenous meal"
                     content="With local ingredients, unique spins on traditional flavors."
                 />

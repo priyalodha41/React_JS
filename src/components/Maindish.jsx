@@ -17,28 +17,28 @@ const Maindish = () => {
                 <div className="row all-dishes">
                     <div className="col-xl-3 col-md-6">
                         <Alldish
-                            img="/assets/images/our-dish-image-1.jpg"
+                            img="assets/images/our-dish-image-1.jpg"
                             text="soups"
                             content="Warm, comforting, and full of flavor, our soups avre the perfect start to any meal."
                          />
                     </div>
                     <div className="col-xl-3 col-md-6">
                         <Alldish
-                            img="/assets/images/our-dish-image-2.jpg"
+                            img="assets/images/our-dish-image-2.jpg"
                             text="salads"
                             content="Refreshing, vibrant, and full of fresh flavors, our salads are crafted to senses."
                          />
                     </div>
                     <div className="col-xl-3 col-md-6">
                         <Alldish
-                            img="/assets/images/our-dish-image-3.jpg"
+                            img="assets/images/our-dish-image-3.jpg"
                             text="main dishes"
                             content="Offering bold flavors and expertly crafted recipes that cater to every taste."
                          />
                     </div>
                     <div className="col-xl-3 col-md-6">
                         <Alldish
-                            img="/assets/images/our-dish-image-4.jpg"
+                            img="assets/images/our-dish-image-4.jpg"
                             text="appetizers"
                             content="Our appetizers are the perfect way to begin your dining experience flavors."
                          />
