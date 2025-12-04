@@ -1,16 +1,66 @@
-# React + Vite
+# React_JS ⚛️  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beginner-friendly React web application built with Vite + React.  
+This project serves as a learning playground for React fundamentals: components, routing, styling, and project structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features  
 
-## React Compiler
+- Built with **React 18** and **Vite** — for fast bundling and hot-reload.  
+- Clean and minimal UI with simple styling (CSS).  
+- Example usage of components: header, footer, pages, routing.  
+- Easy-to-understand folder structure — ideal for beginners.  
+- Ready base to extend: you can add more pages, features, styles, etc.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Structure  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React_JS/
+├── index.html
+├── package.json
+├── vite.config.js
+├── src/
+│ ├── main.jsx
+│ ├── App.jsx
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ └── Footer.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── About.jsx
+│ │ └── Contact.jsx
+│ └── index.css
+└── README.md
+
+
+> This layout keeps structure simple and scalable — you can easily add more components, pages or styles as your project grows.
+
+---
+
+## 🚀 Getting Started (Run Locally)  
+
+### Prerequisites  
+- Node.js (recommended version 16+ or the latest LTS)  
+- npm (comes with Node) or yarn  
+
+### Steps  
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/React_JS.git
+
+# 2. Navigate to project folder
+cd React_JS
+
+# 3. Install dependencies
+npm install
+# or
+yarn install
+
+# 4. Start development server
+npm run dev
+# or
+yarn dev
+```
