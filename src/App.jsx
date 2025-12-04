@@ -5,7 +5,7 @@ import Aboutus from "./components/Aboutus";
 import Maindish from "./components/Maindish";
 import Dailyoffers from "./components/Dailyoffers";
 import Ourblog from "./components/Ourblog";
-import Reservetable from "./components/reservetable";
+import Reservetable from "./components/Reservetable";
 
 
 const App = () => {
