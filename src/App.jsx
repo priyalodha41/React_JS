@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Aboutus from "./components/Aboutus";
 import Maindish from "./components/Maindish";
 import Dailyoffers from "./components/Dailyoffers";
-import Ourblog from "./components/ourblog";
+import Ourblog from "./components/Ourblog";
 import Reservetable from "./components/reservetable";
 
 
